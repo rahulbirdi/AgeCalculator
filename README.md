@@ -6,7 +6,7 @@ A clean, responsive web app that calculates your exact age in **years**, **month
 
 ## 🌐 Live Demo
 
-> [Click here to try it live](https://rahulbirdi.github.io/AgeCalculator)
+> [Click here to try it live]((https://agecalculator64.netlify.app/))
 
 ---
 
