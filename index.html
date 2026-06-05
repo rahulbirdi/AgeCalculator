@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <h1>Age Calculator</h1>
+            <div class="input-group">
+                <label for="birthdate">Enter your birthdate</label>
+                <div class="input-wrapper">
+                    <input type="date" id="birthdate" required>
+                    <!-- <span class="calendar-icon">📅</span> -->
+                </div>
+            </div>
+            
+            <div class="button-group">
+                <button id="calculate-btn" class="btn btn-primary">
+                    <span class="btn-text">Calculate Age</span>
+                    <span class="btn-icon">→</span>
+                </button>
+                <button id="reset-btn" class="btn btn-secondary">
+                    <span class="btn-text">Reset</span>
+                </button>
+            </div>
+            
+            <div id="result" class="result">
+                <div class="result-item">
+                    <span class="number" id="years">--</span>
+                    <span class="unit">Years</span>
+                </div>
+                <div class="result-item">
+                    <span class="number" id="months">--</span>
+                    <span class="unit">Months</span>
+                </div>
+                <div class="result-item">
+                    <span class="number" id="days">--</span>
+                    <span class="unit">Days</span>
+                </div>
+            </div>
+            
+            <div id="next-birthday" class="next-birthday"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
