@@ -70,7 +70,7 @@ Then open `index.html` in your browser.
 1. Enter your **birthdate** using the date picker
 2. Click **Calculate Age**
 3. Your age appears instantly in the three result boxes
-4. Click **Reset** to clear and try another date
+4. Click **Reset** to clear and try another date.
 
 The calculation accounts for:
 - Month and day boundaries (e.g., if today's day is less than the birth day)
