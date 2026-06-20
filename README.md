@@ -1,4 +1,4 @@
-# 🎂 Age Calculator
+# Age Calculator
 
 A clean, responsive web app that calculates your exact age in **years**, **months**, and **days** — instantly.
 
